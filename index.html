@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>My Personal Website</title>
+    <link rel="stylesheet" href="styles.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0-beta3/css/all.min.css">
+</head>
+<body>
+    <header>
+        <div class="container">
+            <h1>မင်္ဂလာပါ!</h1>
+            <h2>ကျွန်တော့်နာမည်က ကိုအောင်ပါ</h2>
+        </div>
+    </header>
+
+    <nav>
+        <div class="container">
+            <ul>
+                <li><a href="#about"><i class="fas fa-user"></i> ကျွန်တော်အကြောင်း</a></li>
+                <li><a href="#skills"><i class="fas fa-code"></i> ကျွမ်းကျင်မှုများ</a></li>
+                <li><a href="#projects"><i class="fas fa-project-diagram"></i> လုပ်ငန်းများ</a></li>
+                <li><a href="#contact"><i class="fas fa-envelope"></i> ဆက်သွယ်ရန်</a></li>
+            </ul>
+        </div>
+    </nav>
+
+    <section id="about" class="section">
+        <div class="container">
+            <h3><i class="fas fa-user"></i> ကျွန်တော်အကြောင်း</h3>
+            <div class="about-content">
+                <img src="profile.jpg" alt="Profile Picture" class="profile-img">
+                <p>ကျွန်တော်က web developer တစ်ယောက်ဖြစ်ပြီး HTML, CSS, JavaScript တို့ကို ကျွမ်းကျင်စွာ အသုံးပြုနိုင်ပါတယ်။ ဒီ website မှာ ကျွန်တော့်အကြောင်းနဲ့ လုပ်ခဲ့တဲ့ project တွေကို မျှဝေထားပါတယ်။</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills" class="section">
+        <div class="container">
+            <h3><i class="fas fa-code"></i> ကျွမ်းကျင်မှုများ</h3>
+            <div class="skills-grid">
+                <div class="skill">
+                    <i class="fab fa-html5"></i>
+                    <h4>HTML5</h4>
+                    <p>Semantic HTML ရေးသားနိုင်ခြင်း</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-css3-alt"></i>
+                    <h4>CSS3</h4>
+                    <p>Flexbox, Grid နှင့် Animations</p>
+                </div>
+                <div class="skill">
+                    <i class="fab fa-js"></i>
+                    <h4>JavaScript</h4>
+                    <p>DOM Manipulation နှင့် ES6+</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="projects" class="section">
+        <div class="container">
+            <h3><i class="fas fa-project-diagram"></i> လုပ်ငန်းများ</h3>
+            <div class="projects-grid">
+                <div class="project">
+                    <img src="project1.jpg" alt="Project 1">
+                    <h4>E-commerce Website</h4>
+                    <p>HTML, CSS, JavaScript အသုံးပြုထားသော စတိုးဆိုင် website</p>
+                </div>
+                <div class="project">
+                    <img src="project2.jpg" alt="Project 2">
+                    <h4>Portfolio Template</h4>
+                    <p>CSS Grid နှင့် Flexbox အသုံးပြုထားသော template</p>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact" class="section">
+        <div class="container">
+            <h3><i class="fas fa-envelope"></i> ဆက်သွယ်ရန်</h3>
+            <form>
+                <div class="form-group">
+                    <label for="name">နာမည်</label>
+                    <input type="text" id="name" name="name" required>
+                </div>
+                <div class="form-group">
+                    <label for="email">အီးမေးလ်</label>
+                    <input type="email" id="email" name="email" required>
+                </div>
+                <div class="form-group">
+                    <label for="message">မက်ဆေ့ဂျ်</label>
+                    <textarea id="message" name="message" required></textarea>
+                </div>
+                <button type="submit">ပို့ရန်</button>
+            </form>
+            <div class="social-links">
+                <a href="#"><i class="fab fa-facebook"></i></a>
+                <a href="#"><i class="fab fa-twitter"></i></a>
+                <a href="#"><i class="fab fa-github"></i></a>
+            </div>
+        </div>
+    </section>
+
+    <footer>
+        <div class="container">
+            <p>&copy; 2023 ကိုအောင်. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
